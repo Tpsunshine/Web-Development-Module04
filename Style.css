@@ -1,0 +1,99 @@
+body{
+    background:linear-gradient( lightsalmon, rgb(156, 226, 156));
+    background-repeat:repeat-y;
+   
+}
+
+#text1{
+    font-size: 45px;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 1px 1px 5px red;
+    font-family: newFont;
+}
+@font-face{
+    font-family: newFont;
+    src:url(FFF_Tusj.ttf)
+}
+@font-face{
+    font-family: GreatVibes;
+    src:url(GreatVibes-Regular.otf)
+}
+
+#text2{
+    font-size: 35px;
+    font-family: GreatVibes;
+    padding-top: 20px;
+}
+
+@font-face{
+    font-family:skud;
+    src:url(skud.ttf)
+}
+
+#text3{
+    font-size: 25px;
+    font-family: skud; 
+    padding-top: 20px;
+
+}
+
+.images{
+ 
+    padding-top: 30px;
+      display: inline-block;
+  }
+#img1{
+    margin-left: 20px;
+    position: absolute;
+   transform:rotate(30deg);
+}
+
+#img2{
+    margin-left: 180px;
+    position: absolute;
+   transform:rotate(60deg);
+    
+}
+
+#img3{
+    margin-left: 350px;
+    position: absolute;
+    transform:rotate(30deg);
+    
+}
+
+#img4{
+    margin-left: 520px;
+    position: absolute;
+    transform:rotate(30deg);
+    
+}
+
+#img5{
+    margin-left: 690px;
+    position: absolute;
+    transform:rotate(60deg);
+    
+}
+#img3D1{
+    margin-left: 40px;
+    margin-top: 160px;
+    position: absolute;
+    transform:rotateY(30deg);
+    
+}
+#img3D2{
+    margin-left: 550px;
+    margin-top: 160px;
+    position: absolute;
+    transform:rotateY(180deg);
+    
+}
+#columns{
+    margin-top: 400px;
+    columns: 4;
+    column-width: 40px;
+    font-family: GreatVibes;
+    font-size: 30px;
+}
